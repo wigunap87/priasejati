@@ -1,0 +1,353 @@
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+	margin:0 Auto;
+    width: 960px;
+	margin-left:0;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 100px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	line-height:18px;
+	padding:10px 20px 20px 20px;
+	color:#58595b;
+}
+
+.jcarousel li a {
+	color:#58595b;
+}
+
+.jcarousel li a:hover {
+	color:#58595b;
+	text-decoration:none;
+}
+.jcarousel img {
+	margin-bottom:20px;
+}
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: relative;
+    text-align: center;
+   
+    text-decoration: none;
+    font: 24px/27px Arial, sans-serif;
+    
+}
+
+.jcarousel-control-prev {
+    left: -20px;
+	top: -190px;
+}
+
+.jcarousel-control-next {
+     left: 897px;
+	top: -190px;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    bottom: 10px;
+	right:-550px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	padding-left:500px;
+	position:relative;
+	
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 0px;
+	display:block; 
+	width:20px;
+	height:1px;
+	float:left; 
+	cursor:pointer; 
+	padding-top:14px; 
+	background-image:url('../images/paginationblack.png'); 
+	background-repeat:no-repeat;  
+	text-align:center; 
+	color:#222
+}
+
+.jcarousel-pagination a.active {
+    color: #fff;
+    opacity: 1;
+	background-position:0 -14px; 
+	height:1px;
+}
+
+
+/* FOR HOME */
+.jcarouselhome-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+/** Carousel **/
+
+.jcarouselhome {
+    position: relative;
+    overflow: hidden;
+	margin:0 Auto;
+    width: 960px;
+	margin-left:0;
+}
+
+.jcarouselhome ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarouselhome li {
+    width: 100px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	line-height:18px;
+	padding:10px 10px 20px 10px;
+	color:#58595b;
+}
+
+.jcarouselhome li a {
+	color:#58595b;
+}
+
+.jcarouselhome li a:hover {
+	color:#58595b;
+	text-decoration:none;
+}
+.jcarouselhome img {
+	margin-bottom:20px;
+}
+
+
+/** Carousel Controls **/
+
+.jcarouselhome-control-prev,
+.jcarouselhome-control-next {
+    position: relative;
+    text-align: center;
+   
+    text-decoration: none;
+    font: 24px/27px Arial, sans-serif;
+    
+}
+
+.jcarouselhome-control-prev {
+    left: -50px;
+	top: -250px;
+}
+
+.jcarouselhome-control-next {
+     left: 925px;
+	top: -250px;
+}
+
+/** Carousel Pagination **/
+
+.jcarouselhome-pagination {
+    bottom: 10px;
+	right:-550px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	padding-left:500px;
+	position:relative;
+	
+}
+
+.jcarouselhome-pagination a {
+    text-decoration: none;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 0px;
+	display:block; 
+	width:20px;
+	height:1px;
+	float:left; 
+	cursor:pointer; 
+	padding-top:14px; 
+	background-image:url('../images/paginationblack.png'); 
+	background-repeat:no-repeat;  
+	text-align:center; 
+	color:#222
+}
+
+.jcarouselhome-pagination a.active {
+    color: #fff;
+    opacity: 1;
+	background-position:0 -14px; 
+	height:1px;
+}
+
+/* PARTNER */
+.jcarouselpartner-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+/** Carousel **/
+
+.jcarouselpartner {
+    position: relative;
+    overflow: hidden;
+	margin:0 Auto;
+    width: 1100px;
+	margin-left:0;
+}
+
+.jcarouselpartner ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarouselpartner li {
+    width: 100px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	line-height:18px;
+	padding:10px 20px 20px 20px;
+	color:#58595b;
+}
+
+.jcarouselpartner li a {
+	color:#58595b;
+}
+
+.jcarouselpartner li a:hover {
+	color:#58595b;
+	text-decoration:none;
+}
+.jcarouselpartner img {
+	margin-bottom:20px;
+}
+
+
+/** Carousel Controls **/
+
+.jcarouselpartner-control-prev,
+.jcarouselpartner-control-next {
+    position: relative;
+    text-align: center;
+   
+    text-decoration: none;
+    font: 24px/27px Arial, sans-serif;
+    
+}
+
+.jcarouselpartner-control-prev {
+    left: -550px;
+	top: -170px;
+}
+
+.jcarouselpartner-control-next {
+     left: 550px;
+	top: -170px;
+}
+
+/** Carousel Pagination **/
+
+.jcarouselpartner-pagination {
+    bottom: 10px;
+	right:-550px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	padding-left:500px;
+	position:relative;
+	
+}
+
+.jcarouselpartner-pagination a {
+    text-decoration: none;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 0px;
+	display:block; 
+	width:20px;
+	height:1px;
+	float:left; 
+	cursor:pointer; 
+	padding-top:14px; 
+	background-image:url('../images/paginationblack.png'); 
+	background-repeat:no-repeat;  
+	text-align:center; 
+	color:#222
+}
+
+.jcarouselpartner-pagination a.active {
+    color: #fff;
+    opacity: 1;
+	background-position:0 -14px; 
+	height:1px;
+}

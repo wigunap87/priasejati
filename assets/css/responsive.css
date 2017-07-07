@@ -1,0 +1,256 @@
+@media screen and (min-width:769px) {
+
+	.header-mobile { display: none; }
+	.header-mobile-menu { display:none; }
+	.sosmed-ebiz { text-align:right; }
+	#content { padding-top:98px; }
+}
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:414px){
+	#content { padding-top:53px; }
+	.header-top { display:none; }
+	.header-bottom { display:none; }
+	.header-mobile { display:block; }
+	.header-mobile-menu { display:block; }
+	.header-content-menu { display:none; }
+	.header-mobile .img-logo { width:150px; }
+	.sosmed-ebiz { text-align:center;  padding-top:20px;}
+	
+	.content-who-content { width:380px; }
+	.content-who-text { font-size:13px; line-height:15px;}
+	
+	.content-xbrl { width:400px; padding-left:10px;}
+	.content-xbrl h1 { font-size:30px; }
+	.content-ournews-content { width:400px; }
+	.cnlist-items-no { padding:5px; }
+	
+	.content-ourservices-content { width:400px; }
+	.jcarouselhome { width:390px; margin-left:5px; }
+	.jcarouselhome-control-prev { left:15px; top:-300px; }
+	.jcarouselhome-control-next { left:301px; top:-300px; }
+	
+	.jcarouselpartner { width:390px; margin-left:5px; }
+	.jcarouselpartner-control-prev { left:-150px; top:-300px; }
+	.jcarouselpartner-control-next { left:150px; top:-300px; }
+	
+	.content-ourproduct-content { width:400px; }
+	.product-items-home { margin-bottom:20px; }
+	
+	.content-ourpartner { background-size:cover; }
+	.content-ourpartner-content { width:400px; }
+	
+	.content-partners { width:400px; }
+	.content-partners ul li img { height:75px; }
+	
+	.content-about-text { width:400px; }
+	.content-about-top { background-size:cover; }
+	.content-about-coverage { background-size:cover; }
+	.content-coverage-text-content { width:400px; }
+	.sister-company { width:400px; }
+	.sister-company ul li { width: 180px; height: 320px; }
+	
+	.content-services-top { background-size:cover; }
+	.content-services-text { width:400px; }
+	.cst-right, .cst-left { padding:0px; }
+	
+	.content-procurement-top { background-size:cover; }
+	.content-procurement-text { width:400px; }
+	.content-procurement-info { padding-top:20px; padding-bottom:20px; }
+	.procurement-info-content { width:400px; }
+	.e-procurement { padding-left:20px; }
+	.procurement-module-content { width:400px; }
+	.procurement-module-content ul li { width:200px; font-size:12px; height:340px; margin-bottom:0;}
+	.procurement-module-content ul li img { width:120px; }
+	
+	.content-clients-top { background-size:cover; }
+	.content-client-text { width:400px; padding-bottom:20px;}
+	.content-client-items { width:400px; }
+	.cci-logo ul li { width:192px; margin:4px; }
+	.cci-logo ul li img { width:190px; }
+	.cci-menu { text-align:center; }
+	.cci-menu ul li { display:inline-block; padding:10px 20px 5px 20px; margin-bottom:5px; font-size:11px;}
+	
+	.content-news-top { background-size:cover; }
+	.content-news-list { width:400px; padding-top:10px;}
+	.cnlist-items h1, .cnlist-items-gray h1, .cnlist-items-no h2 { padding:10px 0 2px 0; }
+	.cnlist-items button, .cnlist-items-gray button { margin-top:5px; }
+	
+	.content-newsdetail-content { width:400px; }
+	.cnewsdetail-text img { float:none; width:400px; padding:0 0 30px 0; }
+	.cnothernews-text { width:400px; }
+	.jcarousel { width:400px; }
+	.jcarousel-control-prev { left:20px; }
+	.jcarousel-control-next { left:296px; }
+	
+	.content-contact-top { background-size:cover; }
+	.content-contact-form { width:400px; padding:20px 0 20px 0; }
+	.content-contact-form input[type="text"], .content-contact-form input[type="email"], .content-contact-form textarea {
+		width:100%;
+	}
+	.content-contact-form input[type="submit"] { margin-right:10px; margin-bottom:20px; }
+	#map { height:400px; }
+	
+	#footer .footer-top-content { width:400px; }
+	
+	#small-logo { right:20px; }
+}
+
+@media screen and (max-width:375px){
+	.header-top { display:none; }
+	.header-bottom { display:none; }
+	.header-mobile { display:block; }
+	.header-mobile-menu { display:block; }
+	.header-content-menu { display:none; }
+	
+	.content-who-content { width:350px; }
+	.content-who-text { font-size:13px; line-height:15px;}
+	.content-xbrl { width:360px; padding-left:10px; }
+	.content-xbrl h1 { font-size:25px; }
+	.content-ournews-content { width:350px; }
+	.cnlist-items-no { padding:5px; }
+	
+	.content-ourservices-content { width:350px; }
+	.jcarouselhome { width:340px; margin-left:5px; }
+	.jcarouselhome-control-prev { left:15px; top:-350px; }
+	.jcarouselhome-control-next { left:251px; top:-350px; }
+	
+	.jcarouselpartner { width:340px; margin-left:5px; }
+	.jcarouselpartner-control-prev { left:-135px; top:-300px; }
+	.jcarouselpartner-control-next { left:135px; top:-300px; }
+	
+	.content-ourproduct-content { width:350px; }
+	
+	.content-ourpartner-content { width:350px; }
+	
+	.content-partners { width:350px; }
+	.content-about-text { width:350px; }
+	.content-coverage-text-content { width:350px; }
+	.sister-company { width:350px; }
+	.sister-company ul li { width: 165px; height: 320px; margin:5px;}
+	.sister-company ul li img { width:100%; }
+	
+	.content-services-text { width:350px; }
+	
+	.content-procurement-text { width:350px; }
+	.content-procurement-info { padding-top:20px; padding-bottom:20px; }
+	.procurement-info-content { width:350px; }
+	.e-procurement { padding-left:20px; }
+	.procurement-module-content { width:350px; }
+	.procurement-module-content ul li { width:175px; font-size:12px; margin-bottom:0;}
+	.procurement-module-content ul li img { width:110px; }
+	
+	.content-client-text { width:350px; padding-bottom:20px;}
+	.content-client-items { width:350px; }
+	.cci-logo ul li { width:165px; margin:4px; }
+	.cci-logo ul li img { width:165px; }
+	/*.cci-menu { text-align:center; }
+	.cci-menu ul li { display:inline-block; padding:10px 20px 5px 20px; margin-bottom:5px; font-size:11px;}*/
+	
+	.content-news-list { width:350px; }
+	
+	.content-newsdetail-content { width:350px; }
+	.cnewsdetail-text img { float:none; width:350px; padding:0 0 30px 0; }
+	.cnothernews-text { width:350px; }
+	.jcarousel { width:350px; }
+	.jcarousel-control-prev { left:20px; }
+	.jcarousel-control-next { left:246px; }
+	
+	.content-contact-form { width:350px; padding:20px 0 20px 0; }
+	#map { height:350px; }
+	.contact-form-address ul li img, .contact-form-phone ul li img, .contact-form-email ul li img { width:50px; }
+	.contact-form-address { margin-left:10px; } 
+	.contact-form-phone { margin-left:10px; } 
+	.contact-form-email { margin-left:10px; }
+	.contact-form-address ul li, .contact-form-phone ul li, .contact-form-email ul li { padding-right:10px; letter-spacing:0; }
+	#footer .footer-top-content { width:350px; }
+	
+	#footer .footer-bottom { font-size:13px; }
+	#small-logo { right:10px; }
+}
+
+@media screen and (max-width:360px) {
+	.header-top { display:none; }
+	.header-bottom { display:none; }
+	.header-mobile { display:block; }
+	.header-mobile-menu { display:block; }
+	.header-content-menu { display:none; }
+	
+	.content-about-text { width:340px; }
+	.content-coverage-text-content { width:340px; }
+	.sister-company { width:340px; }
+	.sister-company ul li { width: 160px; height: 320px; margin:5px; font-size:13px;}
+	
+	.sci-text h2  { font-size:15px; }
+	
+	.content-services-text { width:340px; }
+	.cst-right, .cst-left { padding:5px; }
+	
+	.content-newsdetail-content { width:340px; }
+	.cnewsdetail-text img { float:none; width:340px; padding:0 0 30px 0; }
+	.cnothernews-text { width:340px; }
+	
+	
+	
+	#footer .footer-top-content { width:340px; font-size:13px; }
+}
+
+@media screen and (max-width:320px) {
+	.header-mobile .img-logo { width:120px; }
+	.content-who-content { width:300px; }
+	.content-ournews-content { width:310px; }
+	.jcarouselhome { width:310px; margin-left:0px; }
+	.jcarouselhome-control-prev { left:10px; top:-300px; }
+	
+	.jcarouselhome-control-next { left:216px; top:-300px; }
+	
+	.content-xbrl { width:310px; padding-left:10px; }
+	.content-xbrl h1 { font-size:20px; }
+	
+	.content-ourproduct-content { width:310px; }
+	.content-ourservices-content { width:310px; }
+	.content-ourpartner-content { width:310px; }
+	.content-partners { width:310px; }
+	
+	.content-about-text { width:300px; }
+	.content-coverage-text-content { width:300px; }
+	.sister-company { width:310px; }
+	.sister-company ul li { width: 148px; margin:3px;}
+	
+	.content-services-text { width:310px; }
+	
+	.content-procurement-text { width:310px; }
+	.content-procurement-info { padding-top:20px; padding-bottom:20px; }
+	.procurement-info-content { width:310px; }
+	.e-procurement { padding-left:20px; }
+	.procurement-module-content { width:310px; }
+	.procurement-module-content ul li { width:155px; font-size:12px; margin-bottom:0; height:340px; line-height:14px;}
+	.procurement-module-content ul li img { width:90px; }
+	
+	.content-client-text { width:310px; padding-bottom:20px;}
+	.content-client-items { width:310px; }
+	.cci-logo ul li { width:148px; margin:2px; }
+	.cci-logo ul li img { width:135px; }
+	
+	.content-news-list { width:310px; }
+	
+	.content-newsdetail-content { width:300px; }
+	.cnewsdetail-text img { float:none; width:300px; padding:0 0 30px 0; }
+	.cnothernews-text { width:300px; }
+	.jcarousel { width:300px; }
+	.jcarousel-control-prev { left:20px; }
+	.jcarousel-control-next { left:196px; }
+	
+	.jcarouselpartner { width:310px; margin-left:5px; }
+	.jcarouselpartner-control-prev { left:-115px; top:-350px; }
+	.jcarouselpartner-control-next { left:115px; top:-350px; }
+	
+	.content-contact-form { width:310px; padding:20px 0 20px 0; }
+	#map { height:310px; }
+	
+	#footer .footer-top-content { width:310px; }
+	#footer .footer-bottom { font-size:12px; }
+}
