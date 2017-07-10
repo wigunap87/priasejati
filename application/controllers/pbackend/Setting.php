@@ -27,13 +27,17 @@
 				$_address = $this->security->xss_clean($this->input->post('address', TRUE));
 				$_phone = $this->security->xss_clean($this->input->post('phone', TRUE));
 				$_fax = $this->security->xss_clean($this->input->post('fax', TRUE));
-				$_website = $this->security->xss_clean($this->input->post('website', TRUE));
+				$_email = $this->security->xss_clean($this->input->post('email', TRUE));
+				$_facebook = $this->security->xss_clean($this->input->post('facebook', TRUE));
+				$_twitter = $this->security->xss_clean($this->input->post('twitter', TRUE));
+				$_instagram = $this->security->xss_clean($this->input->post('instagram', TRUE));
+				$_maps = $this->security->xss_clean($this->input->post('maps', TRUE));
 				$_metakey = $this->security->xss_clean($this->input->post('metakey', TRUE));
 				$_metadesc = $this->security->xss_clean($this->input->post('metadesc', TRUE));
 				
 				
 				
-				$this->Setting_model->edit_setting_process($_getid, $_title, $_address, $_phone, $_fax, $_website, $_metakey, $_metadesc);
+				$this->Setting_model->edit_setting_process($_getid, $_title, $_address, $_phone, $_fax, $_email, $_facebook, $_twitter, $_instagram, $_maps, $_metakey, $_metadesc);
 				redirect('pbackend/setting/view/1');
 			}
 		}

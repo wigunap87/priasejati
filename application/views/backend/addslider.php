@@ -22,10 +22,10 @@
 								</div>
 								
 								<div class="fieldpage">
-									<div class="fieldpage-title">Video</div>
+									<div class="fieldpage-title">Images</div>
 									<div class="fieldpage-info">
 										<input type="file" name="_userfile" class="input-form" />
-										<font color="red"><i>Upload video type : mp4. Max Upload 5MB.</i></font>
+										<font color="red"><i>Upload size width : 1400px. Upload type : jpg or png. Max Upload 5MB.</i></font>
 									</div>
 									<div class="clear"></div>
 								</div>

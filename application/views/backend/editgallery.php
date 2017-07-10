@@ -39,7 +39,7 @@
 								<div class="fieldpage">
 									<div class="fieldpage-title">Images</div>
 									<div class="fieldpage-info">
-										<img src="<?php echo base_url(); ?>timthumb.php?src=<?php echo base_url(); ?>media/gallery/<?php echo $sc->gallery_images; ?>&w=200" /><br/>
+										<img src="<?php echo base_url(); ?>media/gallery/<?php echo $sc->gallery_images; ?>" width="200px" /><br/>
 										<input type="file" name="_userfile" class="input-form" />
 										<font color="red"><i>Upload width size : 1400px. Allowed type : PNG | JPG. Max upload : 2MB</i></font>
 									</div>

@@ -26,11 +26,9 @@
 								<div class="fieldspage">
 									<div class="fieldpage-title">Video</div>
 									<div class="fieldpage-info">
-										<video width="400" controls>
-											<source src="<?php echo base_url(); ?>media/category/<?php echo $sgal->slider_images; ?>" type="video/mp4">
-										</video>
+										<img src="<?php echo base_url(); ?>media/slider/<?php echo $sgal->slider_images; ?>" width="200px" /><br/>
 										<input type="file" name="_userfile" class="input-form" />
-										<font color="red"><i>Upload video type : mp4. Max Upload 5MB.</i></font>
+										<font color="red"><i>Upload size width : 1400px. Upload type : jpg or png. Max Upload 5MB.</i></font>
 									</div>
 									<div class="clear"></div>
 								</div>

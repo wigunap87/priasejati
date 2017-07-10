@@ -17,6 +17,7 @@ body {
 
 .blue { color:#0077c2; }
 .no-margin { margin:0; padding:0; }
+:focus { outline:none; }
 #back-top,
 #backs-top {
 	position: absolute;
@@ -121,7 +122,7 @@ body {
 .content-ourservices-content { margin:0 Auto; width:960px; }
 .content-ourservices-content h1 { margin:0 Auto; padding:0 0 10px 0; text-align:center; border-bottom:solid 2px #0077c2; width:200px; margin-bottom:30px; font-size:15px; font-family: "RalewayBold"; color:#000000; text-transform:uppercase; }
 .otherservices-items { background:#0077c2; border-radius: 0 0 10px 10px; }
-.otherservices-items h3 { font-size:12px; padding:10px 20px 10px 20px; color:#ffffff; text-decoration:none; margin:0; height:30px; text-transform:uppercase; font-family: "RalewayBold";}
+.otherservices-items h3 { font-size:12px; padding:0px 20px 10px 20px; color:#ffffff; text-decoration:none; margin:0; height:40px; text-transform:uppercase; font-family: "RalewayBold";}
 .otherservices-items p { font-size:12px; height:100px; font-family:"Myriad Pro"; font-weight:normal; padding:10px; line-height:12px; color:#ffffff; }
 
 
@@ -160,6 +161,13 @@ body {
 .content-about-text { margin:0 Auto; width:800px; text-align:center; padding:20px 0 20px 0; }
 .cat-logo { background: url('../images/bar-blue-about.jpg') no-repeat bottom center; padding-bottom:20px; margin-bottom:10px;}
 .cat-info { font-size:13px; line-height:16px; padding:20px 0 20px 0; }
+.cat-info h3 { text-align:left; border-bottom:dotted 1px #cccccc; font-size:18px; padding-bottom:10px;}
+.cat-info ul { margin:0 0 0 20px; padding:0; }
+.cat-info ul li {text-align:left;}
+.cat-info ul li a { color:#000000; }
+.cat-info ul li a:hover { text-decoration:underline; }
+.search-left { padding-right:5px;}
+.search-right { padding-left:5px;} 
 
 .content-about-coverage { background:url('../images/bg-about-coverage.jpg') no-repeat center center; background-size:100%; padding:20px 0 70px 0; }
 .content-about-coverage h1 { margin:0; padding:50px 0 20px 0; font-size:24px; color:#ffffff; text-transform:uppercase; text-align:center; background: url('../images/bar-clients.jpg') no-repeat bottom center; font-family: "RalewayBold"; letter-spacing:1px; }
@@ -299,6 +307,15 @@ body {
 .content-xbrl { margin:0 auto; width:960px; padding:150px 0 150px 0;}
 .content-xbrl h1 { text-transform:uppercase; font-size:40px; font-family: "RalewayBold"; color:#0077c2;}
 .content-xbrl p { color:#000000; font-family: "RalewayBold"; }
+
+.content-gallery { margin:0; padding:0; }
+.content-gallery-content { margin:0 Auto; width:960px; padding:50px 0 35px 0;}
+.content-gallery-content ul { margin:0; padding:0; list-style:none; }
+.content-gallery-content ul li { display:inline-table; width:227px; margin-left:5px; margin-right:5px; margin-bottom:15px;}
+.content-gallery-content h3 { text-align:center; padding-top:8px; font-size:12px;}
+.content-gallery-content h3 a { color:#ffffff; }
+.content-gallery-content h2 { text-align:center; padding-top:0px; font-size:14px; font-weight:bold;color:#000000;}
+.gallery-desc { border:dotted 1px #efefef; padding:10px; font-size:12px; height:70px; overflow-y: scroll; overflow-x:hidden; }
 
 /* =================================== FOOTER =================================== */
 #footer { margin:0; padding:0; font-size:14px; }

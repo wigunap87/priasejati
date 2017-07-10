@@ -40,9 +40,7 @@
 											<?php echo $wv->slider_title; ?>
 										</td>
 										<td valign=top align=center>
-											<video width="250" controls>
-												<source src="<?php echo base_url(); ?>media/slider/<?php echo $wv->slider_images; ?>" type="video/mp4">
-											</video>
+											<img src="<?php echo base_url(); ?>media/slider/<?php echo $wv->slider_images; ?>" width="100px" />
 										</td>
 										<td valign=top align=center>
 											<?php echo $wv->slider_sort; ?>

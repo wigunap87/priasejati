@@ -45,7 +45,7 @@
 											<?php echo $wv->gallery_title; ?>
 										</td>
 										<td valign=top align=center>
-											<img src="<?php echo base_url(); ?>timthumb.php?src=<?php echo base_url(); ?>media/gallery/<?php echo $wv->gallery_images; ?>&w=100" />
+											<img src="<?php echo base_url(); ?>media/gallery/<?php echo $wv->gallery_images; ?>" width="100px" />
 										</td>
 										<td valign=top align=center>
 											<i>View on edit area</i>

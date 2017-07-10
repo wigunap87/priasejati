@@ -188,12 +188,12 @@
 
 .jcarouselhome-control-prev {
     left: -50px;
-	top: -250px;
+	top: -150px;
 }
 
 .jcarouselhome-control-next {
      left: 925px;
-	top: -250px;
+	top: -150px;
 }
 
 /** Carousel Pagination **/

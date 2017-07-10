@@ -53,13 +53,44 @@
 								</div>
 								
 								<div class="fieldpage">
-									<div class="fieldpage-title">Website</div>
+									<div class="fieldpage-title">Email</div>
 									<div class="fieldpage-info">
-										<input type="text" name="website" class="input-form" value="<?php echo $em->setting_website; ?>"/>
+										<input type="text" name="email" class="input-form" value="<?php echo $em->setting_email; ?>"/>
 									</div>
 									<div class="clear"></div>
 								</div>
 								
+								<div class="fieldspage">
+									<div class="fieldpage-title">Facebook</div>
+									<div class="fieldpage-info">
+										<input type="text" name="facebook" class="input-form" value="<?php echo $em->setting_facebook; ?>"/>
+									</div>
+									<div class="clear"></div>
+								</div>
+								
+								<div class="fieldpage">
+									<div class="fieldpage-title">Twitter</div>
+									<div class="fieldpage-info">
+										<input type="text" name="twitter" class="input-form" value="<?php echo $em->setting_twitter; ?>"/>
+									</div>
+									<div class="clear"></div>
+								</div>
+								
+								<div class="fieldspage">
+									<div class="fieldpage-title">Instagram</div>
+									<div class="fieldpage-info">
+										<input type="text" name="instagram" class="input-form" value="<?php echo $em->setting_instagram; ?>"/>
+									</div>
+									<div class="clear"></div>
+								</div>
+								
+								<div class="fieldpage">
+									<div class="fieldpage-title">Maps</div>
+									<div class="fieldpage-info">
+										<input type="text" name="maps" class="input-form" value="<?php echo $em->setting_map; ?>"/>
+									</div>
+									<div class="clear"></div>
+								</div>
 								
 								<div class="fieldspage">
 									<div class="fieldpage-title">Metakey</div>

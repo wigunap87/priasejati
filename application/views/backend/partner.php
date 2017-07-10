@@ -41,7 +41,7 @@
 											<?php echo $wv->partner_title; ?>
 										</td>
 										<td valign=top align=center>
-											<img src="<?php echo base_url(); ?>timthumb.php?src=<?php echo base_url(); ?>media/partner/<?php echo $wv->partner_images; ?>&w=100" />
+											<img src="<?php echo base_url(); ?>media/partner/<?php echo $wv->partner_images; ?>" width="100px" />
 										</td>
 										<td valign=top align=left>
 											<?php echo $wv->partner_url; ?>

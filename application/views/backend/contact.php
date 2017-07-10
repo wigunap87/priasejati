@@ -15,7 +15,6 @@
 									<tr>
 										<th>No</th>
 										<th>Fullname</th>
-										<th>Phone</th>
 										<th>Email</th>
 										<th>Subject</th>
 										<th>Message</th>
@@ -35,9 +34,6 @@
 										<td valign=top align=center><?php echo $no; ?></td>
 										<td valign=top>
 											<?php echo $wv->contact_fullname; ?>
-										</td>
-										<td valign=top>
-											<?php echo $wv->contact_phone; ?>
 										</td>
 										<td valign=top>
 											<?php echo $wv->contact_email; ?>

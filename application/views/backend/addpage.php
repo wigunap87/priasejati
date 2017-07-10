@@ -35,8 +35,7 @@
 										<select name="type" class="input-select">
 											<option value="" selected>-- Choose</option>
 											<option value="About Us">About Us</option>
-											<option value='Terms of Use'>Terms of Use</option>
-											<option value='Privacy Policy'>Privacy Policy</option>
+											<option value="About Us Text">About Us Text</option>
 										</select>
 									</div>
 									<div class="clear"></div>

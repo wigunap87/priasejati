@@ -38,8 +38,7 @@
 											<option value="<?php echo $edp->page_type; ?>" selected><?php echo $edp->page_type; ?></option>
 											<option value="">-- Choose</option>
 											<option value="About Us">About Us</option>
-											<option value='Terms of Use'>Terms of Use</option>
-											<option value='Privacy Policy'>Privacy Policy</option>
+											<option value="About Us Text">About Us Text</option>
 										</select>
 									</div>
 									<div class="clear"></div>
