@@ -93,6 +93,16 @@
 								</div>
 								
 								<div class="fieldspage">
+									<div class="fieldpage-title">Logo</div>
+									<div class="fieldpage-info">
+										<img src="<?php echo base_url(); ?>media/setting/<?php echo $em->setting_logo; ?>" /><br/>
+										<input type="file" name="_userfile" class="input-form" />
+										<font color="red"><i>Upload width size : 200px. Allowed type : PNG | JPG. Max upload : 2MB</i></font>
+									</div>
+									<div class="clear"></div>
+								</div>
+								
+								<div class="fieldpage">
 									<div class="fieldpage-title">Metakey</div>
 									<div class="fieldpage-info">
 										<input type="text" name="metakey" class="input-form" value="<?php echo $em->setting_metakey; ?>"/>
@@ -100,7 +110,7 @@
 									<div class="clear"></div>
 								</div>
 								
-								<div class="fieldpage">
+								<div class="fieldspage">
 									<div class="fieldpage-title">Metadesc</div>
 									<div class="fieldpage-info">
 										<textarea name="metadesc" rows="5" class="input-form"><?php echo $em->setting_metadesc; ?></textarea>

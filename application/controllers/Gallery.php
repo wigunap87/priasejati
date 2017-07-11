@@ -45,6 +45,7 @@ class Gallery extends CI_Controller {
 			$sources['sinstagram'] = $gset->setting_instagram;
 			$sources['smetakey'] = $gset->setting_metakey;
 			$sources['smetadesc'] = $gset->setting_metadesc;
+			$sources['slogo'] = $gset->setting_logo;
 		}
 		$sources['title'] = 'Gallery | Pria Sejati';
 		$sources['content'] = 'frontend/gallery';
@@ -97,6 +98,7 @@ class Gallery extends CI_Controller {
 			$sources['sinstagram'] = $gset->setting_instagram;
 			$sources['smetakey'] = $gset->setting_metakey;
 			$sources['smetadesc'] = $gset->setting_metadesc;
+			$sources['slogo'] = $gset->setting_logo;
 		}
 		$sources['title'] = $ntitle.' | Pria Sejati';
 		$sources['content'] = 'frontend/gallerydetail';

@@ -3,7 +3,7 @@
 	.header-mobile { display: none; }
 	.header-mobile-menu { display:none; }
 	.sosmed-ebiz { text-align:right; }
-	#content { padding-top:98px; }
+	#content { padding-top:142px; }
 }
 
 @media screen and (max-width:768px){

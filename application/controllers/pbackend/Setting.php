@@ -35,9 +35,45 @@
 				$_metakey = $this->security->xss_clean($this->input->post('metakey', TRUE));
 				$_metadesc = $this->security->xss_clean($this->input->post('metadesc', TRUE));
 				
+				$quer = $this->Setting_model->show_getsetting($_getid);
+				foreach($quer as $query) {
+					$shimages = $query->setting_logo;
+				}
+							
+				if(!empty($_FILES['_userfile']['name'])) {
+					$config = array(
+						'allowed_types' => 'jpg|jpeg|png', // allowed type of images
+						'upload_path' => './media/setting',
+						'max_size' => 3048
+					);
+					$this->load->library('upload',$config);
+						
+					$acak = rand(000000, 999999);
+					$upload = $this->upload->do_upload('_userfile');
+					$data = array('upload_data' => $this->upload->data());
+					$filepath = $data['upload_data']['file_name'];
+					$image_data = $this->upload->data();
+					$image_config = array (
+							'source_image' => $image_data['full_path'],
+							'new_image' => $config['upload_path'],
+							'file_name' => $image_data['file_name'],
+							'maintain_ratio' => true,
+							'width' => 1500,
+							'height' => 530,
+						);
+							
+					$this->load->library('image_lib');
+					//rename uploaded file
+					rename($image_config['new_image'] . "/" . $filepath, $image_config['new_image'] . "/" . $acak . $image_config['file_name']);
+					unlink($image_config['new_image'] . "/" . $shimages);
+					$folder = $acak . "" .$image_config['file_name'];
+					
+					$_images = $folder;
+				} else if(empty($_FILES['_userfile']['name'])) {
+					$_images = $shimages;
+				}
 				
-				
-				$this->Setting_model->edit_setting_process($_getid, $_title, $_address, $_phone, $_fax, $_email, $_facebook, $_twitter, $_instagram, $_maps, $_metakey, $_metadesc);
+				$this->Setting_model->edit_setting_process($_getid, $_title, $_address, $_phone, $_fax, $_email, $_facebook, $_twitter, $_instagram, $_maps, $_images, $_metakey, $_metadesc);
 				redirect('pbackend/setting/view/1');
 			}
 		}

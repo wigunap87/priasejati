@@ -49,9 +49,9 @@
 				<div class="header-top-content">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-xs-6 col-sm-6 col-md-6 no-margin">
+							<div class="col-xs-6 col-sm-6 col-md-6 no-margin" align=right>
 								<a href="<?php echo base_url(); ?>">
-									<img src="<?php echo base_url(); ?>assets/images/logo-header.png" alt="" width="350px"/>
+									<img src="<?php echo base_url(); ?>media/setting/<?php echo $slogo; ?>" alt="" height="90px" />
 								</a>
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-6 no-margin">
@@ -129,9 +129,9 @@
 					<div class="footer-top-contact">
 						<h2>Contact Info</h2>
 						<div class="ftc-info">
-							<p><font color="#0077c2"><span class="glyphicon glyphicon-map-marker"></span></font> <?php echo str_replace('<br>',' ',$saddress); ?></p>
-							<p><font color="#0077c2"><span class="glyphicon glyphicon-earphone"></span></font> <strong><?php echo $sphone; ?> /</strong> <?php echo $sfax; ?></p>
-							<p><font color="#0077c2"><span class="glyphicon glyphicon-envelope"></span></font> <strong><a href="mailto:<?php echo $semail; ?>"><?php echo $semail; ?></a></strong></p>
+							<p><font color="#c72c10"><span class="glyphicon glyphicon-map-marker"></span></font> <?php echo str_replace('<br>',' ',$saddress); ?></p>
+							<p><font color="#c72c10"><span class="glyphicon glyphicon-earphone"></span></font> <strong><?php echo $sphone; ?> /</strong> <?php echo $sfax; ?></p>
+							<p><font color="#c72c10"><span class="glyphicon glyphicon-envelope"></span></font> <strong><a href="mailto:<?php echo $semail; ?>"><?php echo $semail; ?></a></strong></p>
 						</div>
 					</div>
 					<p>

@@ -29,6 +29,7 @@ class Main extends CI_Controller {
 			$sources['sinstagram'] = $gset->setting_instagram;
 			$sources['smetakey'] = $gset->setting_metakey;
 			$sources['smetadesc'] = $gset->setting_metadesc;
+			$sources['slogo'] = $gset->setting_logo;
 		}
 		$sources['title'] = 'Pria Sejati';
 		$sources['content'] = 'frontend/main';
@@ -51,6 +52,7 @@ class Main extends CI_Controller {
 			$sources['smaps'] = $gset->setting_map;
 			$sources['smetakey'] = $gset->setting_metakey;
 			$sources['smetadesc'] = $gset->setting_metadesc;
+			$sources['slogo'] = $gset->setting_logo;
 		}
 		$sources['title'] = 'Contact | Pria Sejati';
 		$sources['content'] = 'frontend/contact';
@@ -104,6 +106,7 @@ class Main extends CI_Controller {
 			$sources['sinstagram'] = $gset->setting_instagram;
 			$sources['smetakey'] = $gset->setting_metakey;
 			$sources['smetadesc'] = $gset->setting_metadesc;
+			$sources['slogo'] = $gset->setting_logo;
 		}
 		$sources['title'] = 'About Us | Pria Sejati';
 		$sources['content'] = 'frontend/about';
@@ -132,6 +135,7 @@ class Main extends CI_Controller {
 				$sources['sinstagram'] = $gset->setting_instagram;
 				$sources['smetakey'] = $gset->setting_metakey;
 				$sources['smetadesc'] = $gset->setting_metadesc;
+				$sources['slogo'] = $gset->setting_logo;
 			}
 			$sources['title'] = 'About Us | Pria Sejati';
 			$sources['content'] = 'frontend/search';
